@@ -1,3 +1,11 @@
+.refs { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px; margin-top:28px; }
+.ref { display:flex; gap:20px; align-items:center; padding:22px; border-radius:24px; background:#fff; box-shadow:0 10px 26px rgba(15,42,68,.07); }
+.ref .pic { flex:none; width:120px; height:120px; border-radius:18px; background:#EEF3F9; display:grid; place-items:center; }
+.ref .pic img { max-width:96px; max-height:100px; object-fit:contain; }
+.ref small { font-weight:700; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:#2F6FD1; }
+.ref h3 { margin-top:6px; font-size:19px; line-height:1.25; }
+.ref p { margin-top:6px; font-size:15px; color:#4A5A6E; }
+
 :root { --navy: #0F2A44; --ink: #1B3550; --muted: #4F6780; --line: #E3EAF2; --bg: #F5F8FC; --card: #FFFFFF;
   --network: #2F7FD1; --security: #EE5D3C; --smart: #0FA57B; --digital: #6F55EE; --sun: #FFC43D; --wa: #12B386;
   --head: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif; --body: 'Instrument Sans', 'Segoe UI', system-ui, sans-serif;
